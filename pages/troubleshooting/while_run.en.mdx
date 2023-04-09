@@ -12,6 +12,7 @@
   2. Update your video driver (it's a solution from the official java webpage).
   3. Clean your PC with CCleaner.
   4. Uninstall all java versions from your PC, then install Java 17.
+  5. If you have **MSI afterburner** or **Rivatuner**, make sure you disabled them.
 
 ## 2. The bot cannot jump trough the port
 
@@ -40,16 +41,14 @@ Possible causes:
   2. The bot is waiting till the shields fill up, but as your repair formation you chose the one that constantly decreases your shields level (like Moth or Wheel formation).
   3. An enemy aimed and attacked your ship and the option to remember enemies for a given time is enabled (by default it's set to 300).
 
-# Common issues related with killing NPCs
-
-## 1. The bot is not shooting, completely ignores all NPCs in the map
+## 5. The bot is not shooting, completely ignores all NPCs in the map
 
 Make sure that:
 1. Selected module in the bot settings allows the bot to kill NPCs, for example NPC killer or Kill & Collect (settings -> 'General')
 2. NPCs that should be killed have been ticked in the table with NPCs (settings -> configuration section for 'NPC killer')
 3. The Only kill NPCs in preferred area option is disabled (settings -> 'Roaming & Preferred area behaviour')
 
-## 2. The bot is trying to kill NPC, but it's not shooting, just circling around.
+## 6. The bot is trying to kill NPC, but it's not shooting, just circling around.
 
  Possible causes and solutions:
   1. The attack key assigned in the bot settings might not be adequate to the key in the in-game slotbar, where you keep your ammunition. Before you go further, make sure 
@@ -62,15 +61,16 @@ Make sure that:
 
  ⚠️ If you want to use characters instead of numbers, remember to DO NOT ASSIGN the 'J' and 'C' keys, because the first one is used by the bot to jump through the ports, and the second one, to change the ship configuration.
 
-## 3. The bot constantly cancels and resumes attack on NPC
+## 7. The bot constantly cancels and resumes attack on NPC
 
 Possible causes and solutions:
     1. The key where you keep your ammunition has been assigned somewhere in the bot settings, for example, in the field for an offensive ability key or as formation key. Make sure you set everything properly.
     2. The bot is not able to detect if your ship is shooting or not. It might happen if you run out of rockets (even if you don't use them). Buy the rockets or try to change the rockets type.
 
-## 4. The bot is not able to reconnect or throws to the login page
+## 9. The bot is not able to reconnect or throws to the login page
 
  Cause: your SID is KO (expired).
- Solution: Don't login to the game from the browser while the bot is running. If you do it, a new SID will be generated for your account, causing the older one (that is used by the bot) to expire and sooner or later, you will be disconnected from the game.
 
+ Solution: Don't login to the game from the browser while the bot is running. 
+ 
  ✅  If you really need to access the backpage while the bot is running, use *KaiserDJ Client* or *Home button*.

@@ -11,6 +11,7 @@
 ❌ Bot update required
 
   Cause: You loaded a plugin that was designed for a further bot version than you are actually using
+  
   Solutions: 
   1. Remove the plugin from your plugins folder and get an older version of this plugin.
   2. Update the bot to the version that is supported by this plugin or just update to the latest one
@@ -29,7 +30,7 @@ Possible causes and solutions:
 Reason: You put the .jar file that is not really a plugin for the bot. You can remove it from the plugins folder, because you won't be able to use it.
  
   
-🛠️ 2. The plugin's background is green, but some features are not working
+**🛠️ The plugin's background is green, but some features are not working**
   
 ❌ Failed to load
 
@@ -47,12 +48,17 @@ Possible solutions:
  
 ## 3. The checkbox next to the feature has been ticked, but you can't click the gear icon to configure it
 
-Reason: The enabled feature is a module [M] that first must be chosen in the module selection. Go to General Settings and select it, then go back and check if you can access the configuration. If not, go back to General settings and scroll down to the very bottom. The configuration section for this module should be there.
+Reason: The enabled feature is a module [M] that first must be chosen in the module selection. 
+
+Solution:
+
+1. Go to General Settings and select it, then go back and check if you can access the configuration. 
+2. If not, go back to General settings and scroll down to the very bottom. The configuration section for this module should be there.
   
  
 ## 4. The kekka's kamikaze feature is not working 
  
-1. The bot is not shooting aliens in the gate, just running away from them
+🔹 The bot is not shooting aliens in the gate, just running away from them
 
 Possible causes and solutions:
   1. You didn't specify a number of the P.E.T. kamikaze module or the number you provided is not adequate to the position of the kami module in the in-game pet module selection.
@@ -60,18 +66,18 @@ Possible causes and solutions:
   3. You didn't set the shield and HP range properly.
   4. Your ship HP or shield level is too low to use kami, for example, because your ship is not able to fill it up, since it's too slow and is constantly attacked by the aliens. Also. make sure you didn't set the Moth or Wheel as formation used to throw pet kamikaze, since they are constantly decreasing your shields level.
   
-2.  The bot is only shooting aliens and doesn't use kamikaze
+🔹  The bot is only shooting aliens and doesn't use kamikaze
 
  Possible causes and solutions:
   1. You didn't enable and configured the kamikaze feature in the kekka's configuration section.
   2. You didn't specify on which NPCs should the kamikaze be used. To do it, go to the NPCs table, left click on the field in the extra column and add proper flags to the aliens you want to kami.
   3. You are using the Kekka Reloaded 1.1.8 where the kami feature is broken. Use Kekka Reloaded 1.0.4 instead. Go to the plugins channel and scroll up. You will find it there.
   
-3. The bot chooses the kamikaze module, but P.E.T. behaves like in guard mode
+🔹 The bot chooses the kamikaze module, but P.E.T. behaves like in guard mode
 
  Possible causes and solutions:
+
   1.  The P.E.T's HP is too high to fire up (it must be lower than 10%).
-  2.  You are running the bot on DarkFlash API or DarkBoat API. On these APIs the kamikaze fires up every second time and currently there is no fix for this issue. If it bothers you too much, switch to Legacy API - this problem doesn't occur there. FIXED
   
 5️⃣ Problems related with new API 
  
@@ -86,7 +92,7 @@ For example:
 The following path:    C:\users\kullanıcı\Desktop\Darkbot\lib
 Will be converted to: C:\users\kullan?c?\Desktop\Darkbot\lib
 
-- So, the converted path is pointing to an invalid location, where the required .dll file cannot be found and that's the reason of this error.
+🔹 So, the converted path is pointing to an invalid location, where the required .dll file cannot be found and that's the reason of this error.
 
 Solution: Get rid of all national characters from your path by changing the name of all directories where they occur. If the actual name of the user on your computer contains mentioned characters (like in the example above) and you don't want to bother with renaming it, you can simply move the bot folder to any partition (For example to disk C:\) and run it there. 
  
