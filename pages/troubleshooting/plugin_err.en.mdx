@@ -1,76 +1,95 @@
- ## 1. Java(TM) Platform SE binary has stopped working
+## 1. Loaded plugin doesn't appear in the plugins tab:
 
-⚠️ If you are using old operation system (for ex., Windows Server 2012), you must know that this issue (and not only this one) is common on these operating systems. If you are incessantly facing the java crash issue, consider switching to the one of supported operating systems, listed in #Supported Operation Systems.
-
-🔸 Possible causes:
-  1. There is a conflict with another program or a task running in the background.
-  2. Poor system condition.
-  1. an overclocking software.
-
-🔸 Potential solutions:
-  1. Perform a clean boot in your system (google it if you don't know how to do that).
-  2. Update your video driver (it's a solution from the official java webpage).
-  3. Clean your PC with CCleaner.
-  4. Uninstall all java versions from your PC, then install Java 17.
-
-## 2. The bot cannot jump trough the port
-
- Make sure that:
-  1. The port area is not marked as avoided zone
-  2. the jump key assigned in the in-game keyboard settings is equals to 'J'
-
- If you set it properly, check if you can use the port manually. If you can't, then:
-  1. It might be a game desynchronization. Try to move your ship manually and after a moment, run the bot. If you want, you can also try to reload the game client or restart the bot. 
-  2. It's a game bug (it happens quite rarely). The only way to get rid of it is to let other player destroy your ship. After revive everything should work properly.
-
-## 3. The bot gets stuck at the death window without any revive option.
-
-Reason and solutions: You set the bot to revive at the port/on the place, but you didn't set the wait time before revive properly.
-  1. If you set the bot to revive at the port, set the wait time to 25 seconds.
-  2. If the revive location is set to spot, set it to 55 seconds
-
-⚠️  DO NOT set the wait time before revive to the value higher than 60, because after death you may be disconnected from the game.
-
-## 4. The bot got stuck at the port or reloading every 90 seconds
-
-TIP: Before you go further, read the current bot status (you will find it in the upper left corner of the main bot panel [the one with map]). It will help you to find a real cause and a solution for the problem.
+ 1. Make sure you put the plugin in a proper folder. All plugins should be placed in the folder named 'plugins'.
+ 2. If you loaded the plugin while the bot was running, click the reload icon (located in the upper right corner of the settings panel) or restart the bot.
+  
  
-Possible causes:
-  1. The bot is waiting for the ship to repair, but you didn't equip your ship with an auto-repair CPU.
-  2. The bot is waiting till the shields fill up, but as your repair formation you chose the one that constantly decreases your shields level (like Moth or Wheel formation).
-  3. An enemy aimed and attacked your ship and the option to remember enemies for a given time is enabled (by default it's set to 300).
+## 2.The plugin is not working and its background in the plugins tab is red
 
-# Common issues related with killing NPCs
+ Error messages and solutions:
+  
+❌ Bot update required
 
-## 1. The bot is not shooting, completely ignores all NPCs in the map
+  Cause: You loaded a plugin that was designed for a further bot version than you are actually using
+  Solutions: 
+  1. Remove the plugin from your plugins folder and get an older version of this plugin.
+  2. Update the bot to the version that is supported by this plugin or just update to the latest one
 
-Make sure that:
-1. Selected module in the bot settings allows the bot to kill NPCs, for example NPC killer or Kill & Collect (settings -> 'General')
-2. NPCs that should be killed have been ticked in the table with NPCs (settings -> configuration section for 'NPC killer')
-3. The Only kill NPCs in preferred area option is disabled (settings -> 'Roaming & Preferred area behaviour')
+  
+❌ Invalid signature
 
-## 2. The bot is trying to kill NPC, but it's not shooting, just circling around.
+Possible causes and solutions: 
+1. GitHub servers are temporary down and it's not possible to verify a signature of the plugin. Before you go further, check the GitHub servers status (https://www.githubstatus.com/). If this is the case, just wait patiently until they fix their servers.
+2. You loaded a plugin that comes from an untrusted source - someone sent it to you or you find it somewhere in the web. It's better to don't use these plugins!
+3. Your IP has been blocked by GitHub servers or your internet provider restricted you access to the GitHub pages. Connect to internet from another IP, for example, share an internet connection using your phone or use proxy.
 
- Possible causes and solutions:
-  1. The attack key assigned in the bot settings might not be adequate to the key in the in-game slotbar, where you keep your ammunition. Before you go further, make sure 
- you set it properly!
-  2. You didn't enable the following options in the in-game settings (gameplay section):
-     -> Double-click to launch attack,
-     -> Start and stop attacks using the shortcut bar.
-  3. The key bindings in the in-game keyboard settings have been reseted or you are using the keys that cannot be recognized by the bot (like functional keys [F1-F12, ALT, ENTER] and the numbers from the numeric keyboard [like Num 0, Num 1 etc.]).
-  Open in-game settings, go to keyboard and set the key bindings using the numbers or characters from the standard keyboard.
+  
+❌ The plugin is missing a plugin.json in the jar root
 
- ⚠️ If you want to use characters instead of numbers, remember to DO NOT ASSIGN the 'J' and 'C' keys, because the first one is used by the bot to jump through the ports, and the second one, to change the ship configuration.
-
-## 3. The bot constantly cancels and resumes attack on NPC
+Reason: You put the .jar file that is not really a plugin for the bot. You can remove it from the plugins folder, because you won't be able to use it.
+ 
+  
+🛠️ 2. The plugin's background is green, but some features are not working
+  
+❌ Failed to load
 
 Possible causes and solutions:
-    1. The key where you keep your ammunition has been assigned somewhere in the bot settings, for example, in the field for an offensive ability key or as formation key. Make sure you set everything properly.
-    2. The bot is not able to detect if your ship is shooting or not. It might happen if you run out of rockets (even if you don't use them). Buy the rockets or try to change the rockets type.
+  1. The feature couldn't be loaded properly. Try to click the reload icon or restart the bot
+  2. You loaded two (or more) different (or the same) versions of the same plugin to your bot. If this is the case, close the bot and remove all duplications from the plugins folder.
+  
+❌ Failed to tick
 
-## 4. The bot is not able to reconnect or throws to the login page
+Possible solutions:
+  1. Try to reload plugins or restart the bot
+  2. Disable all other unnecessary plugins' features from the plugins tab, then restart the bot.
+  3. Try the older/newer plugin version or use the older bot version, since older plugins may not work properly on the newer ones.
+  
+ 
+## 3. The checkbox next to the feature has been ticked, but you can't click the gear icon to configure it
 
- Cause: your SID is KO (expired).
- Solution: Don't login to the game from the browser while the bot is running. If you do it, a new SID will be generated for your account, causing the older one (that is used by the bot) to expire and sooner or later, you will be disconnected from the game.
+Reason: The enabled feature is a module [M] that first must be chosen in the module selection. Go to General Settings and select it, then go back and check if you can access the configuration. If not, go back to General settings and scroll down to the very bottom. The configuration section for this module should be there.
+  
+ 
+## 4. The kekka's kamikaze feature is not working 
+ 
+1. The bot is not shooting aliens in the gate, just running away from them
 
- ✅  If you really need to access the backpage while the bot is running, use *KaiserDJ Client* or *Home button*.
+Possible causes and solutions:
+  1. You didn't specify a number of the P.E.T. kamikaze module or the number you provided is not adequate to the position of the kami module in the in-game pet module selection.
+  2. You are using an unstable or exprerimental that uses a new P.E.T. module selection system (you can select a module from the list instead of typing a number of the module). The kekka's Galaxy Module doesn't support it, so you need to enable the Legacy PET mode in the bot settings to make the kami feature work properly.
+  3. You didn't set the shield and HP range properly.
+  4. Your ship HP or shield level is too low to use kami, for example, because your ship is not able to fill it up, since it's too slow and is constantly attacked by the aliens. Also. make sure you didn't set the Moth or Wheel as formation used to throw pet kamikaze, since they are constantly decreasing your shields level.
+  
+2.  The bot is only shooting aliens and doesn't use kamikaze
+
+ Possible causes and solutions:
+  1. You didn't enable and configured the kamikaze feature in the kekka's configuration section.
+  2. You didn't specify on which NPCs should the kamikaze be used. To do it, go to the NPCs table, left click on the field in the extra column and add proper flags to the aliens you want to kami.
+  3. You are using the Kekka Reloaded 1.1.8 where the kami feature is broken. Use Kekka Reloaded 1.0.4 instead. Go to the plugins channel and scroll up. You will find it there.
+  
+3. The bot chooses the kamikaze module, but P.E.T. behaves like in guard mode
+
+ Possible causes and solutions:
+  1.  The P.E.T's HP is too high to fire up (it must be lower than 10%).
+  2.  You are running the bot on DarkFlash API or DarkBoat API. On these APIs the kamikaze fires up every second time and currently there is no fix for this issue. If it bothers you too much, switch to Legacy API - this problem doesn't occur there. FIXED
+  
+5️⃣ Problems related with new API 
+ 
+## 5. The API you had selected is not able to load
+
+1. Error message: The API you had selected is not able to load. You probably do not have the required DLL in your lib folder.
+Possible causes and solutions:
+- You have a 32-bit java version installed on your PC - reinstall Java or our Runtimes.
+
+2. Your absolute (full) path to the DarkBot.jar file contains one or more national characters (such as ğ, Ş ı etc.) which cannot be recognized properly and are converted to question marks.
+For example:
+The following path:    C:\users\kullanıcı\Desktop\Darkbot\lib
+Will be converted to: C:\users\kullan?c?\Desktop\Darkbot\lib
+
+- So, the converted path is pointing to an invalid location, where the required .dll file cannot be found and that's the reason of this error.
+
+Solution: Get rid of all national characters from your path by changing the name of all directories where they occur. If the actual name of the user on your computer contains mentioned characters (like in the example above) and you don't want to bother with renaming it, you can simply move the bot folder to any partition (For example to disk C:\) and run it there. 
+ 
+3. The bot is loading the game forever after refresh
+
+Reason and solution: Clear cache and restart bot.

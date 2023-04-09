@@ -1,8 +1,8 @@
 {
   "index": "Introduction",
   "supportedos": "Supported Operating System",
-  "installation_en": "Installation",
-  "troubleshooting_en": "Troubleshooting",
+  "installation": "Installation",
+  "troubleshooting": "Troubleshooting",
   "about": {
     "title": "About",
     "type": "page"

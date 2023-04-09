@@ -1,0 +1,76 @@
+ ## 1. Java(TM) Platform SE binary has stopped working
+
+⚠️ If you are using old operation system (for ex., Windows Server 2012), you must know that this issue (and not only this one) is common on these operating systems. If you are incessantly facing the java crash issue, consider switching to the one of supported operating systems, listed in #Supported Operation Systems.
+
+🔸 Possible causes:
+  1. There is a conflict with another program or a task running in the background.
+  2. Poor system condition.
+  1. an overclocking software.
+
+🔸 Potential solutions:
+  1. Perform a clean boot in your system (google it if you don't know how to do that).
+  2. Update your video driver (it's a solution from the official java webpage).
+  3. Clean your PC with CCleaner.
+  4. Uninstall all java versions from your PC, then install Java 17.
+
+## 2. The bot cannot jump trough the port
+
+ Make sure that:
+  1. The port area is not marked as avoided zone
+  2. the jump key assigned in the in-game keyboard settings is equals to 'J'
+
+ If you set it properly, check if you can use the port manually. If you can't, then:
+  1. It might be a game desynchronization. Try to move your ship manually and after a moment, run the bot. If you want, you can also try to reload the game client or restart the bot. 
+  2. It's a game bug (it happens quite rarely). The only way to get rid of it is to let other player destroy your ship. After revive everything should work properly.
+
+## 3. The bot gets stuck at the death window without any revive option.
+
+Reason and solutions: You set the bot to revive at the port/on the place, but you didn't set the wait time before revive properly.
+  1. If you set the bot to revive at the port, set the wait time to 25 seconds.
+  2. If the revive location is set to spot, set it to 55 seconds
+
+⚠️  DO NOT set the wait time before revive to the value higher than 60, because after death you may be disconnected from the game.
+
+## 4. The bot got stuck at the port or reloading every 90 seconds
+
+TIP: Before you go further, read the current bot status (you will find it in the upper left corner of the main bot panel [the one with map]). It will help you to find a real cause and a solution for the problem.
+ 
+Possible causes:
+  1. The bot is waiting for the ship to repair, but you didn't equip your ship with an auto-repair CPU.
+  2. The bot is waiting till the shields fill up, but as your repair formation you chose the one that constantly decreases your shields level (like Moth or Wheel formation).
+  3. An enemy aimed and attacked your ship and the option to remember enemies for a given time is enabled (by default it's set to 300).
+
+# Common issues related with killing NPCs
+
+## 1. The bot is not shooting, completely ignores all NPCs in the map
+
+Make sure that:
+1. Selected module in the bot settings allows the bot to kill NPCs, for example NPC killer or Kill & Collect (settings -> 'General')
+2. NPCs that should be killed have been ticked in the table with NPCs (settings -> configuration section for 'NPC killer')
+3. The Only kill NPCs in preferred area option is disabled (settings -> 'Roaming & Preferred area behaviour')
+
+## 2. The bot is trying to kill NPC, but it's not shooting, just circling around.
+
+ Possible causes and solutions:
+  1. The attack key assigned in the bot settings might not be adequate to the key in the in-game slotbar, where you keep your ammunition. Before you go further, make sure 
+ you set it properly!
+  2. You didn't enable the following options in the in-game settings (gameplay section):
+     -> Double-click to launch attack,
+     -> Start and stop attacks using the shortcut bar.
+  3. The key bindings in the in-game keyboard settings have been reseted or you are using the keys that cannot be recognized by the bot (like functional keys [F1-F12, ALT, ENTER] and the numbers from the numeric keyboard [like Num 0, Num 1 etc.]).
+  Open in-game settings, go to keyboard and set the key bindings using the numbers or characters from the standard keyboard.
+
+ ⚠️ If you want to use characters instead of numbers, remember to DO NOT ASSIGN the 'J' and 'C' keys, because the first one is used by the bot to jump through the ports, and the second one, to change the ship configuration.
+
+## 3. The bot constantly cancels and resumes attack on NPC
+
+Possible causes and solutions:
+    1. The key where you keep your ammunition has been assigned somewhere in the bot settings, for example, in the field for an offensive ability key or as formation key. Make sure you set everything properly.
+    2. The bot is not able to detect if your ship is shooting or not. It might happen if you run out of rockets (even if you don't use them). Buy the rockets or try to change the rockets type.
+
+## 4. The bot is not able to reconnect or throws to the login page
+
+ Cause: your SID is KO (expired).
+ Solution: Don't login to the game from the browser while the bot is running. If you do it, a new SID will be generated for your account, causing the older one (that is used by the bot) to expire and sooner or later, you will be disconnected from the game.
+
+ ✅  If you really need to access the backpage while the bot is running, use *KaiserDJ Client* or *Home button*.
