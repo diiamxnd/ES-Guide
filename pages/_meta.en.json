@@ -3,6 +3,7 @@
   "supportedos": "Supported Operating System",
   "installation": "Installation",
   "troubleshooting": "Troubleshooting",
+  "configuration": "Configuration",
   "about": {
     "title": "About",
     "type": "page"
