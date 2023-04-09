@@ -78,23 +78,3 @@ Possible causes and solutions:
  Possible causes and solutions:
 
   1.  The P.E.T's HP is too high to fire up (it must be lower than 10%).
- 
-## 5. The API you had selected is not able to load
-
-❌ Error message: The API you had selected is not able to load. You probably do not have the required DLL in your lib folder.
-Possible causes and solutions:
-
-1. You have a 32-bit java version installed on your PC - reinstall Java or our Runtimes.
-
-2. Your absolute (full) path to the DarkBot.jar file contains one or more national characters (such as ğ, Ş ı etc.) which cannot be recognized properly and are converted to question marks.
-For example:
-The following path:    C:\users\kullanıcı\Desktop\Darkbot\lib
-Will be converted to: C:\users\kullan?c?\Desktop\Darkbot\lib
-
-🔹 So, the converted path is pointing to an invalid location, where the required .dll file cannot be found and that's the reason of this error.
-
-Solution: Get rid of all national characters from your path by changing the name of all directories where they occur. If the actual name of the user on your computer contains mentioned characters (like in the example above) and you don't want to bother with renaming it, you can simply move the bot folder to any partition (For example to disk C:\) and run it there. 
- 
-3. The bot is loading the game forever after refresh
-
-Reason and solution: Clear cache and restart bot.
