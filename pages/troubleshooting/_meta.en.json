@@ -1,0 +1,5 @@
+{
+  "before_run": "Issues that may occur before starting the game",
+  "while_run": "Issues that may occur while bot is running",
+  "plugin_err": "Plugins related issues"
+}

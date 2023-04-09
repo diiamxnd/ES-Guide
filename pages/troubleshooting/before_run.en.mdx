@@ -1,0 +1,108 @@
+##  1. Windows cannot find "javaw"
+Possible causes and potential solutions:
+    1. You don't have any java version installed on your PC. Go to #Windows page, download and install Java 17.
+
+    2. After installing the java program, your java path didn't update. Try to reinstall Java 17 or our runtimes.
+
+    ⚠️ While installing the runtime, remember to DO NOT close the Windows Command Prompt popups and patiently wait till the installation process is done. Otherwise your java path will never update!
+
+    If it didn't solve the problem, here is a solution:
+        1. Step #1
+            1. Search Advanced System Settings
+            2. Click on Environment Variables...
+
+        2. Step #2
+            1. Go to System Variables
+            2. Click on New...
+            3. Variable name: JAVA_HOME
+            4. Variable value: C:\Program Files\Java\jdk1.8.0_XXX (replace the X's with your JDK version. Example: jdk1.8.0_201) or you can browser for directory of the file.
+            5. Make sure its the JDK not JRE
+            6. Click OK
+
+        3. Step #3
+            1. Look for Path and Double-Click on it or Select and Press Edit
+            2. Delete all Java Paths (Like  C:\Program Files (x86)\Common Files\Oracle\Java\javapath)
+            3. Click on New...
+            4. Write %JAVA_HOME%\bin
+            5. Click OK
+
+![ClassPath1](public/ClassPath1.png)
+![ClassPath2](public/ClassPath2.png)
+
+## 2. Unable to access jar file DarkBot.jar
+
+Possible causes and solutions:
+1. There is no file named DarkBot.jar in your bot folder, for example, because you didn't extract it from the zip archive or you renamed this file.
+2. You don't have any java version installed on PC (the same solution as for the Windows cannot find javaw error - scroll up).
+3. There is a problem with your java path.
+- The same solution as for the Windows cannot find javaw error - scroll up.
+4. You can try to use RunBot.bat:
+
+- Create a file in your Bot folder. (For example file.properties)
+- Put your username, and your password in the new file
+
+![fileProperties](public/fileProperties.png)
+
+Edit the RunBot.bat file to this: START javaw -jar DarkBot.jar -start -login file.properties
+
+![runbot](public/runbot.png)
+
+Do **NOT** run RunBot.bat with Admin privileges!
+
+## 3. DarkBot.jar is opening as a folder, archieve or in other APP
+Possible solution:
+1. Right click DarkBot.jar
+2. Click "Open with"
+3. Tick "Java TM" and "Always use this app for .jar files"
+4. Click "OK"
+5. Double click DarkBot.jar
+
+![toJar1](public/toJar1.png)
+![toJar2](public/toJar2.png)
+
+## 4. Native library (com/sun/jna/win32-x86/jnidispatch.dll) not found in resource path [...]
+Reason: You have a 32-bit java version installed on your PC (a 64-bit version is required to run the bot).
+Solution: Follow the instructions below:
+1. Click menu start and type appwiz.cpl
+2. Locate a 32-bit java version and uninstall it from your PC
+3. If you have already installed our runtime, go to the step 4.  If not, go to #Windows page and download it.
+4. Double click on the RunBot.bat file and check if it works now.
+
+⚠️ If you have done all the steps and you get a Windows cannot find javaw error, try to install the runtime again (it will fix your java path). After installation, try to run the bot.
+
+## 5. Cannot authorize my discord account
+
+Error message: 127.0.0.1 refused to connect.
+Reasons and solutions:
+1. You are closing the popup window from the bot (a dark grey window that pops out just after running the bot) during the authorization process. DO NOT close it, since you will always get the mentioned error.
+2. The browser you are currently using is not able to load the page. Set default browser to chrome - there you should authorize the bot seamlessly.
+3. You are using a very aggressive AntiVirus that doesn't allow you to pass the authorization process - try to disable it for a moment.
+
+## 6. Bot closes after login  [FIX]
+
+1. Download and run the following file:
+https://darkbot.eu/downloads/FlashFix.bat
+
+2. Alternative Method - ONLY IF FIRST FAILS
+https://darkbot.eu/downloads/flashcn_flashpatch.zip
+
+## 7. Cannot login to the game - refreshing the login page or redirecting to the logout page just after clicking the login button.
+
+Cause: security restrictions doesn't allow to set cookies in the browser, which are needed to access the backpage and run the game.
+
+Solution: for any Windows Server OS:
+ 1. Open the Server Manager tab
+ 2. Navigate to Local Server
+ 3. Find and disable IE Enhanced Security Configuration
+ 4. Close all windows and check if you can log in to the game.
+⚠️ Remember to restart the bot to apply changes!
+
+⬇️ If for some reasons you are not able to turn it off, follow the further steps.
+
+Solution: for all operating systems:
+ 1.  click menu start, type inetcpl.cpl and hit enter
+ 2. go to security, click trusted sites and add *.darkorbit.com to trusted sites
+ 3. close all windows and now, try to log in to the game
+ ⚠️ Remember to restart the bot to apply changes!
+
+If it doesn't help and you are still facing the same issue, try to decrease the security level for the internet zone (inetcpl.cpl => security  -> internet, set it to medium or low).
