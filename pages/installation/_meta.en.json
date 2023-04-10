@@ -1,5 +1,6 @@
 {
   "windows": "Windows",
   "linux": "Linux",
-  "macos": "MacOS"
+  "macos": "MacOS",
+  "firstRun": "First run"
 }
