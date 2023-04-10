@@ -1,4 +1,5 @@
 {
+  "supportedos": "Supported Operating System",
   "windows": "Windows",
   "linux": "Linux",
   "macos": "MacOS"
