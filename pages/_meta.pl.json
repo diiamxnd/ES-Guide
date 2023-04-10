@@ -1,0 +1,17 @@
+{
+  "index": "Wstęp",
+  "supportedos": "Wspierane systemy operacyjne",
+  "installation": "Instalacja",
+  "troubleshooting": "Rozwiązywanie problemów",
+  "configuration": "Konfiguracja",
+  "about": {
+    "title": "O nas",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Kontakt ↗",
+    "type": "page",
+    "href": "https://darkbot.eu/",
+    "newWindow": true
+  }
+}

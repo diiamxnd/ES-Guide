@@ -1,0 +1,76 @@
+## 1. Java(TM) Platform SE binary has stopped working
+
+⚠️ Jeśli używasz starego systemu operacyjnego (na przykład Windows Server 2012), musisz wiedzieć, że ten problem (i nie tylko ten) jest powszechny w tych systemach operacyjnych. Jeśli nieustannie napotykasz problem z awarią javy, rozważ przejście na jeden z obsługiwanych systemów operacyjnych, wymienionych w #Supported Operation Systems.
+
+🔸 Możliwe przyczyny:
+  1. Występuje konflikt z innym programem lub zadaniem działającym w tle.
+  2. Zły stan systemu.
+  1. oprogramowanie do podkręcania.
+
+🔸 Potencjalne rozwiązania:
+  1. Wykonaj clean boot w systemie (google jeśli nie wiesz jak to zrobić).
+  2. Zaktualizuj swój sterownik wideo (to rozwiązanie z oficjalnej strony java).
+  3. Wyczyść swój komputer za pomocą CCleaner.
+  4. Odinstaluj wszystkie wersje javy z komputera, a następnie zainstaluj Javę 17.
+  5. Jeśli masz **MSI afterburner** lub **Rivatuner**, upewnij się, że je wyłączyłeś.
+
+## 2. Bot nie może przeskoczyć przez port
+
+ Upewnij się, że:
+  1. Obszar portu nie jest oznaczony jako strefa unikana
+  2. klawisz skoku przypisany w ustawieniach klawiatury w grze jest równy 'J'.
+
+ Jeśli ustawiłeś go prawidłowo, sprawdź czy możesz użyć portu ręcznie. Jeśli nie możesz, to:
+  1. Może to być desynchronizacja gry. Spróbuj poruszać statkiem ręcznie i po chwili uruchom bota. Jeśli chcesz, możesz też spróbować przeładować klienta gry lub zrestartować bota.
+  2. To błąd gry (zdarza się dość rzadko). Jedynym sposobem na pozbycie się go jest pozwolenie innemu graczowi na zniszczenie Twojego statku. Po revive wszystko powinno działać poprawnie.
+
+## 3. Bot utknął w oknie śmierci bez żadnej opcji revive.
+
+Powód i rozwiązania: Ustawiłeś bota na revive w porcie/na miejscu, ale nie ustawiłeś poprawnie czasu oczekiwania przed revive.
+  1. Jeśli ustawiłeś bota na odrodzenie w porcie, ustaw czas oczekiwania na 25 sekund.
+  2. Jeśli lokalizacja revive jest ustawiona na spot, ustaw ją na 55 sekund.
+
+⚠️ NIE ustawiaj czasu oczekiwania przed ożywieniem na wartość większą niż 60, ponieważ po śmierci możesz zostać rozłączony z grą.
+
+## 4. Bot utknął w porcie lub przeładowuje się co 90 sekund
+
+PORADA: Zanim przejdziesz dalej, przeczytaj aktualny status bota (znajdziesz go w lewym górnym rogu głównego panelu bota [tego z mapą]). Pomoże ci to znaleźć prawdziwą przyczynę i rozwiązanie problemu.
+
+Możliwe przyczyny:
+  1. Bot czeka na naprawę statku, ale nie wyposażyłeś swojego statku w procesor auto-naprawy.
+  2. Bot czeka aż tarcze się napełnią, ale jako formację naprawczą wybrałeś taką, która stale obniża poziom tarcz (np. formacja Moth lub Wheel).
+  3. Wróg wycelował i zaatakował twój statek, a opcja zapamiętywania wrogów przez dany czas jest włączona (domyślnie jest ustawiona na 300)
+
+## 5. Bot nie strzela, całkowicie ignoruje wszystkich NPC na mapie
+
+Upewnij się, że:
+1. Wybrany moduł w ustawieniach bota pozwala mu zabijać NPC, np. NPC killer lub Kill & Collect (ustawienia -> 'Ogólne')
+2. NPC, które powinny zostać zabite zostały zaznaczone w tabeli z NPC (ustawienia -> sekcja konfiguracji dla 'NPC killer')
+3. Opcja Only kill NPCs in preferred area jest wyłączona (ustawienia -> 'Roaming & Preferred area behaviour')
+
+## 6. Bot próbuje zabić NPC, ale nie strzela, tylko krąży wokół.
+
+ Możliwe przyczyny i rozwiązania:
+  1. Klucz ataku przypisany w ustawieniach bota może nie być adekwatny do klucza w slotbarze w grze, gdzie trzymasz amunicję. Zanim przejdziesz dalej, upewnij się, że
+ że ustawiłeś go prawidłowo!
+  2. Nie włączyłeś następujących opcji w ustawieniach gry (sekcja gameplay):
+     -> Podwójne kliknięcie w celu uruchomienia ataku,
+     -> Rozpoczynanie i zatrzymywanie ataków za pomocą paska skrótów.
+  3. Wiązania klawiszy w ustawieniach klawiatury w grze zostały zresetowane lub używasz klawiszy, które nie mogą być rozpoznane przez bota (jak klawisze funkcyjne [F1-F12, ALT, ENTER] i cyfry z klawiatury numerycznej [jak Num 0, Num 1 itd.]).
+  Otwórz ustawienia w grze, przejdź do klawiatury i ustaw przypisania klawiszy używając cyfr lub znaków z klawiatury standardowej.
+
+ ⚠️ Jeśli chcesz używać znaków zamiast cyfr, pamiętaj, aby NIE PRZYPISYWAĆ klawiszy 'J' i 'C', ponieważ pierwszy z nich jest używany przez bota do przeskakiwania przez porty, a drugi do zmiany konfiguracji statku.
+
+## 7. Bot ciągle odwołuje i wznawia atak na NPC
+
+Możliwe przyczyny i rozwiązania:
+    1. Klucz, w którym trzymasz amunicję, został gdzieś przypisany w ustawieniach bota, np. w polu dla klucza zdolności ofensywnych lub jako klucz formacji. Upewnij się, że wszystko ustawiłeś prawidłowo.
+    2. Bot nie jest w stanie wykryć czy twój statek strzela czy nie. Może się to zdarzyć, gdy zabraknie Ci rakiet (nawet jeśli ich nie używasz). Dokup rakiety lub spróbuj zmienić typ rakiet.
+
+## 8. Bot nie może się ponownie połączyć lub rzuca na stronę logowania
+
+ Przyczyna: twój SID jest KO (wygasł).
+
+ Rozwiązanie: Nie loguj się do gry z przeglądarki podczas działania bota.
+
+ ✅ Jeśli naprawdę potrzebujesz dostępu do backpage'a podczas działania bota, użyj *KaiserDJ Client* lub *Home button*.
