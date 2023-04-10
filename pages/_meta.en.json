@@ -2,8 +2,9 @@
   "index": "Introduction",
   "supportedos": "Supported Operating System",
   "installation": "Installation",
-  "troubleshooting": "Troubleshooting",
   "configuration": "Configuration",
+  "donors": "Donor role",
+  "troubleshooting": "Troubleshooting",
   "about": {
     "title": "About",
     "type": "page"
