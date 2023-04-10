@@ -1,0 +1,5 @@
+{
+  "before_run": "Problemy, które mogą wystąpić przed rozpoczęciem gry",
+  "while_run": "Problemy, które mogą wystąpić podczas działania bota",
+  "plugin_err": "Problemy związane z wtyczkami"
+}
