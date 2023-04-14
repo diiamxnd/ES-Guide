@@ -36,3 +36,30 @@ If you don't see them, click *Reload*. Now you should see them.
 4. To activate and configure plugin, tick it and click button like on a screenshot.
 
 ![plugins](public/plugins5.png)
+
+## 3. How to autostart bot?
+
+Open your bot folder and create two files: *runbot.bat* and *file.properties*.
+
+1. In *file.properties* add username, login and master-password (if you have it).
+
+![autostart](public/autostart1.png)
+
+2. In *runbot.bat* add next command:
+
+```bash
+    START javaw -jar DarkBot.jar -start -login file.properties
+```
+
+If you want to run bot with specific config, then add:
+
+```bash
+    -config name_of_config
+```
+
+![autostart](public/autostart2.png)
+
+So after all the changes it should look like this:
+
+![autostart](public/autostart3.png)
+
