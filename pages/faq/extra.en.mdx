@@ -1,65 +1,44 @@
-## 1. How to update bot?
+## 1. NPC priority (same for boxes)
 
-If you're **NOT** a donor:
+> A -5 Priority
+> B 0 Priority
 
-1. Go to #unstable-downloads
-2. Download last bot version and replace into your bot folder
-3. Restart bot.
+Goes for A first
+ 
+> A 2 Priority
+> B -6 Priority
 
-If you're a donor:
+Goes for B first
+ 
+> A 0 Priority
+> B -20 Priority (Appears after a while in Sight)
 
-1. Go to #experimental-downloads
-2. Download last bot version and replace into your bot folder
-3. Restart bot.
+Goes for B
+ 
+But in this case even if Bot is shooting right now A with 50% Health left and B appears in sight it will stop shooting A and move to B
 
-![botupdate](public/botupdate.png)
+If priority difference is like 20 priorities bellow from others that one will be Always preferred no matter what Bot is shooting
+ 
+> A 15 Priority
+> B 0 Priority
 
-## 2. How to install plugins?
+This one kinda complicated/tricky. If A has less than 50%▼ HP continue killing it else above 50%▲ HP go kill B.
+ 
+Here more Information about that. Thanks to Punisher
 
-1. Go to #plugins channel.
+> NPC that is currently Locked and have Full HP getting 10 Extra Priority.
+> Then every Missing 10% HP of Locked NPC give 1 Extra Priority.
+ 
+Example:
+1. Locked NPC with 50% HP gives 15 Extra Priority.
+2. Locked NPC with 20% HP 18 Extra Priority.
 
-Here you will see info abouts plugins like name, min./supported version, description and link.
-![plugins](public/plugins1.png)
+## 2. How to run multiple bots?
 
+1. Duplicate your bot folder and rename it if you want
 
-2. Download a plugin and replace it into bot folder -> plugins.
+![multipleBots](public/multipleBots1.png)
 
-![plugins](public/plugins2.gif)
+2. Run them.
 
-3. Open your bot configuration - plugins. 
-
-If you don't see them, click *Reload*. Now you should see them.
-
-![plugins](public/plugins3.png)
-![plugins](public/plugins4.png)
-
-4. To activate and configure plugin, tick it and click button like on a screenshot.
-
-![plugins](public/plugins5.png)
-
-## 3. How to autostart bot?
-
-Open your bot folder and create two files: *runbot.bat* and *file.properties*.
-
-1. In *file.properties* add username, login and master-password (if you have it).
-
-![autostart](public/autostart1.png)
-
-2. In *runbot.bat* add next command:
-
-```bash
-START javaw -jar DarkBot.jar -start -login file.properties
-```
-
-![autostart](public/autostart2.png)
-
-If you want to run bot with specific config, then add:
-
-```bash
--config config_name
-```
-
-So after all the changes it should look like this:
-
-![autostart](public/autostart3.png)
-
+![multipleBots](public/multipleBots2.png)
