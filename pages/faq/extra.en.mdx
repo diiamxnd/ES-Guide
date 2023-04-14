@@ -1,20 +1,20 @@
 ## 1. NPC priority (same for boxes)
 
 ```bash
-1. A -5 Priority
-2. B 0 Priority
+A -5 Priority
+B 0 Priority
 ```
 Goes for A first
 
 ```bash
-1. A 2 Priority
-2. B -6 Priority
+A 2 Priority
+B -6 Priority
 ```
 Goes for B first
 
 ```bash
-1. A 0 Priority
-2. B -20 Priority (Appears after a while in Sight)
+A 0 Priority
+B -20 Priority (Appears after a while in Sight)
 ```
 Goes for B
 
@@ -23,21 +23,22 @@ But in this case even if Bot is shooting right now A with 50% Health left and B 
 If priority difference is like 20 priorities bellow from others that one will be Always preferred no matter what Bot is shooting.
 
 ```bash
-1. A 15 Priority
-2. B 0 Priority
+A 15 Priority
+B 0 Priority
 ```
 
 This one kinda complicated/tricky. If A has less than 50%▼ HP continue killing it else above 50%▲ HP go kill B.
 
 Here more Information about that. Thanks to Punisher
-
-> NPC that is currently Locked and have Full HP getting 10 Extra Priority.
-
-> Then every Missing 10% HP of Locked NPC give 1 Extra Priority.
- 
-Example:
+```bash
+NPC that is currently Locked and have Full HP getting 10 Extra Priority.
+Then every Missing 10% HP of Locked NPC give 1 Extra Priority.
+```
+Example
+```bash
 1. Locked NPC with 50% HP gives 15 Extra Priority.
 2. Locked NPC with 20% HP 18 Extra Priority.
+```
 
 ## 2. How to run multiple bots?
 
