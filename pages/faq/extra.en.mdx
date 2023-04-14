@@ -1,30 +1,45 @@
 ## 1. NPC priority (same for boxes)
 
-|    Prio A    |    Prio B    |   Goes to   |
-| :----------- | :----------: | ----------: |
-|  -5 -> |  0 -> |  A  |
-|  2  -> |  -6 -> |  B  |
-|  0 -> |  -20 -> |  B  |
-
-But in this case even if Bot is shooting right now A with 50% Health left and B appears in sight with -20 prio it will stop shooting A and move to B.
-
-If priority difference is like 20 priorities bellow from others that one will be Always preferred no matter what Bot is shooting.
-
+1. Example #1
 ```bash
-A  15 Priority
-B  0  Priority
+A -5 Priority
+B 0 Priority
 ```
-This one kinda complicated/tricky. If A has less than 50%▼ HP continue killing it else above 50%▲ HP go kill B.
+Goes for A first
 
-Here more Information about that (thanks to Punisher):
+2. Example #2
+```bash 
+A 2 Priority
+B -6 Priority
+```
+Goes for B first
 
+3. Example #3
+```bash 
+A 0 Priority
+B -20 Priority (Appears after a while in Sight)
+```
+Goes for B
+ 
+But in this case even if Bot is shooting right now A with 50% Health left and B appears in sight it will stop shooting A and move to B
+If priority difference is like 20 priorities bellow from others that one will be Always preferred no matter what Bot is shooting
+
+4. Example #4
+```bash
+A 15 Priority
+B 0 Priority
+```
+This one kinda complicated/tricky
+If A has less than 50%▼ HP continue killing it else above 50%▲ HP go kill B.
+
+Here more Information about that (thanks to Punika):
 1. NPC that is currently Locked and have Full HP getting 10 Extra Priority.
 2. Then every Missing 10% HP of Locked NPC give 1 Extra Priority.
-
+ 
 Example:
 ```bash
-1. Locked NPC with 50% HP gives 15 Extra Priority.
-2. Locked NPC with 20% HP 18 Extra Priority.
+Locked NPC with 50% HP gives 15 Extra Priority.
+Locked NPC with 20% HP 18 Extra Priority.
 ```
 
 ## 2. How to run multiple bots?
