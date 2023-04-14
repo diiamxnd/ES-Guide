@@ -2,11 +2,11 @@
 
 |    Prio A    |    Prio B    |   Goes to   |
 | :----------- | :----------: | ----------: |
-|      -5      |      0       |      A      |
-|       2      |     -6       |      B      |
-|       0      |     -20      |      B      |   **B** appears after a while in sight
+|  -5 -> |  0 -> |  A  |
+|  2  -> |  -6 -> |  B  |
+|  0 -> |  -20 -> |  B  |
 
-But in this case even if Bot is shooting right now A with 50% Health left and B appears in sight it will stop shooting A and move to B.
+But in this case even if Bot is shooting right now A with 50% Health left and B appears in sight with -20 prio it will stop shooting A and move to B.
 
 If priority difference is like 20 priorities bellow from others that one will be Always preferred no matter what Bot is shooting.
 
@@ -16,11 +16,11 @@ B  0  Priority
 ```
 This one kinda complicated/tricky. If A has less than 50%▼ HP continue killing it else above 50%▲ HP go kill B.
 
-Here more Information about that. Thanks to Punisher
-```bash
+Here more Information about that (thanks to Punisher):
+
 1. NPC that is currently Locked and have Full HP getting 10 Extra Priority.
 2. Then every Missing 10% HP of Locked NPC give 1 Extra Priority.
-```
+
 Example:
 ```bash
 1. Locked NPC with 50% HP gives 15 Extra Priority.
