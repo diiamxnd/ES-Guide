@@ -5,7 +5,7 @@ const withNextra = require('nextra')({
 
 module.exports = withNextra({
   i18n: {
-    locales: ['en', 'pl', 'es'],
+    locales: ['en', 'pl'],
     defaultLocale: 'en'
   }
 })
