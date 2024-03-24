@@ -1,0 +1,61 @@
+#EXTM3U url-tvg=""
+#EXTINF:-1 tvg-chno="1" tvg-id="(no tvg-id)" tvg-name="DAZN 1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png" group-title="(no group)",DAZN 1
+ http://127.0.0.1:6878/ace/getstream?id=8ca07071b39185431f8e940ec98d1add9e561639
+#EXTINF:-1 tvg-chno="2" tvg-id="(no tvg-id)" tvg-name="DAZN 2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M2SD.png" group-title="(no group)",DAZN 2
+ http://127.0.0.1:6878/ace/getstream?id=60dbeeb299ec04bf02bc7426d827547599d3d9fc
+#EXTINF:-1 tvg-chno="3" tvg-id="(no tvg-id)" tvg-name="DAZN 3" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN3.png" group-title="(no group)",DAZN 3
+ http://127.0.0.1:6878/ace/getstream?id=a8ffddef56f082d4bb5c0be0d3d2fdd8c16dbd97
+#EXTINF:-1 tvg-chno="4" tvg-id="(no tvg-id)" tvg-name="DAZN 4" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN4.png" group-title="(no group)",DAZN 4
+ http://127.0.0.1:6878/ace/getstream?id=2fcdf7a19c0858f686efdfabd3c8c2b92bf6bcfd
+#EXTINF:-1 tvg-chno="5" tvg-id="(no tvg-id)" tvg-name="DAZN F1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="(no group)",DAZN F1
+ http://127.0.0.1:6878/ace/getstream?id=6b94479c24898700089e6b87d28a3ccc72dc4041
+#EXTINF:-1 tvg-chno="6" tvg-id="(no tvg-id)" tvg-name="DAZN F1 Multicamara" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="(no group)",DAZN F1 Multicamara
+ http://127.0.0.1:6878/ace/getstream?id=968627d24eec1c16b51d88e4a4a6c02211e3346e
+#EXTINF:-1 tvg-chno="7" tvg-id="(no tvg-id)" tvg-name="DAZN LaLiga" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png" group-title="(no group)",DAZN LaLiga
+ http://127.0.0.1:6878/ace/getstream?id=1960a9be8ae9e8c755330218eac4c5805466290a
+#EXTINF:-1 tvg-chno="8" tvg-id="(no tvg-id)" tvg-name="DAZN LaLiga (2)" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png" group-title="(no group)",DAZN LaLiga (2)
+ http://127.0.0.1:6878/ace/getstream?id=75251ba975132ec9a202806ba5bf606e87280c96
+#EXTINF:-1 tvg-chno="9" tvg-id="(no tvg-id)" tvg-name="DAZN LaLiga 2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNL2.png" group-title="(no group)",DAZN LaLiga 2
+ http://127.0.0.1:6878/ace/getstream?id=e33e666c393ef04ebe99a9b92135d2e0b48c4d10
+#EXTINF:-1 tvg-chno="10" tvg-id="(no tvg-id)" tvg-name="DAZN LaLiga 3" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNL3.png" group-title="(no group)",DAZN LaLiga 3
+ http://127.0.0.1:6878/ace/getstream?id=8c71f0e0a5476e10950fc827f9d2a507340aba74
+#EXTINF:-1 tvg-chno="11" tvg-id="(no tvg-id)" tvg-name="Dazn Liga F" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DAZN_LaLiga_2023_Logo.svg/512px-DAZN_LaLiga_2023_Logo.svg.png" group-title="(no group)",Dazn Liga F
+ http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710
+#EXTINF:-1 tvg-chno="12" tvg-id="(no tvg-id)" tvg-name="La Liga BAR" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/f9y6oe1692444384.png" group-title="(no group)",La Liga BAR
+ http://127.0.0.1:6878/ace/getstream?id=aa82e7d4f03061f2144a2f4be22f2e2210d42280
+#EXTINF:-1 tvg-chno="13" tvg-id="(no tvg-id)" tvg-name="La Liga Hypermotion" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/LaLiga_TV_Hypermotion_2023_Logo.svg/1200px-LaLiga_TV_Hypermotion_2023_Logo.svg.png" group-title="(no group)",La Liga Hypermotion
+ http://127.0.0.1:6878/ace/getstream?id=4c46585214b23b1d802ef2168060c7649a3894cf
+#EXTINF:-1 tvg-chno="14" tvg-id="(no tvg-id)" tvg-name="La Liga Hypermotion 2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/ficha_m/MLIGS2.png" group-title="(no group)",La Liga Hypermotion 2
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710d81b4f2f3fde433539c097b2edc9b587ca47b087
+#EXTINF:-1 tvg-chno="15" tvg-id="(no tvg-id)" tvg-name="Movistar Deportes" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CPDEP.png" group-title="(no group)",Movistar Deportes
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710d00223931b1854163e24c5c22475015d7d45c112
+#EXTINF:-1 tvg-chno="16" tvg-id="(no tvg-id)" tvg-name="Movistar Deportes 2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/ARTHUR.png" group-title="(no group)",Movistar Deportes 2
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710e6f06d697f66a8fa606c4d61236c24b0d604d917
+#EXTINF:-1 tvg-chno="17" tvg-id="(no tvg-id)" tvg-name="Movistar Deportes 3" tvg-logo="https://cdn.discordapp.com/attachments/1160031158269124682/1221560635905544212/logo_deportes-3-movistar-plus.png?ex=661305ff&is=660090ff&hm=02ca8dd134dacc9578dd458ae5a2635c612e7f6039965d9b4ecdbf8e6d90c3f5&" group-title="(no group)",Movistar Deportes 3
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710aee0a595220e0f1c2fee725fd1dbc602d7152a9a
+#EXTINF:-1 tvg-chno="18" tvg-id="(no tvg-id)" tvg-name="Movistar La Liga" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar La Liga
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710dce1579e3a2e5bd29071fca8eae364f1eb3205cf
+#EXTINF:-1 tvg-chno="19" tvg-id="(no tvg-id)" tvg-name="Movistar la Liga 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar la Liga 3
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df96207104c4844564313e39a888f593511f299f5ba3cf929
+#EXTINF:-1 tvg-chno="20" tvg-id="(no tvg-id)" tvg-name="Movistar La Liga 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar La Liga 4
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710aa8f826da70e27a26b29c7b32402f17e8a67a8b0
+#EXTINF:-1 tvg-chno="21" tvg-id="(no tvg-id)" tvg-name="Movistar La Liga 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar La Liga 5
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710535394f62a810bc5aeb25be75ea5ff7d03e070b2
+#EXTINF:-1 tvg-chno="22" tvg-id="(no tvg-id)" tvg-name="Movistar La Liga 6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar La Liga 6
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710c896d37778f9e43549a788fc22206a655895b51b
+#EXTINF:-1 tvg-chno="23" tvg-id="(no tvg-id)" tvg-name="Movistar Liga De Campeones" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar Liga De Campeones
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710931b1984badcb821df7b47a66ac0835ac871b51c
+#EXTINF:-1 tvg-chno="24" tvg-id="(no tvg-id)" tvg-name="Movistar Liga De Campeones" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar Liga De Campeones
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710f096a64dd756a6d549aa7b12ee9acf7eee27e833
+#EXTINF:-1 tvg-chno="25" tvg-id="(no tvg-id)" tvg-name="Movistar Liga De Campeones 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar Liga De Campeones 2
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710fc2fe31b0bce25e2dc7ab4d262bf645e2be5a393
+#EXTINF:-1 tvg-chno="26" tvg-id="(no tvg-id)" tvg-name="Movistar Liga De Campeones 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar Liga De Campeones 3
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710ad372cba73aa0ece207a79532b3e30b731136bb2
+#EXTINF:-1 tvg-chno="27" tvg-id="(no tvg-id)" tvg-name="Movistar Liga De Campeones 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar Liga De Campeones 4
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710f2df4f96b23388b45e75d848a48a510cf8af560f
+#EXTINF:-1 tvg-chno="28" tvg-id="(no tvg-id)" tvg-name="Movistar Plus" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MPLUS.png" group-title="(no group)",Movistar Plus
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df96207105a236fbbe6e5bbfec03db548c244a7c858d675c0
+#EXTINF:-1 tvg-chno="29" tvg-id="(no tvg-id)" tvg-name="Movistar Vamos" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Vamos_por_Movistar_Plus%2B_2023_Logo.svg/250px-Vamos_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movistar Vamos
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df9620710859bb6295b8d0f224224d3063d9db7cdeca03122
+#EXTINF:-1 tvg-chno="30" tvg-id="(no tvg-id)" tvg-name="Movsitar La Liga 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="(no group)",Movsitar La Liga 2
+http://127.0.0.1:6878/ace/getstream?id=600222a4f98df80a2c0df2d60cb5ff3df962071026029f72a4ca831d09deefe89534818db1d105bc
