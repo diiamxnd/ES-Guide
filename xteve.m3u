@@ -1,0 +1,61 @@
+#EXTM3U url-tvg="http://172.18.144.1:34400/xmltv/xteve.xml" x-tvg-url="http://172.18.144.1:34400/xmltv/xteve.xml"
+#EXTINF:0 channelID="x-ID.0" tvg-chno="1" tvg-name="DAZN 1" tvg-id="1" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png" group-title="Sports",DAZN 1
+http://172.18.144.1:34400/stream/b72fbcfb98412c6cfd048563f14a5fd9
+#EXTINF:0 channelID="x-ID.1" tvg-chno="2" tvg-name="DAZN 2" tvg-id="2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M2SD.png" group-title="Sports",DAZN 2
+http://172.18.144.1:34400/stream/974bbaa773ab90d848bf10c878ffc478
+#EXTINF:0 channelID="x-ID.2" tvg-chno="3" tvg-name="DAZN 3" tvg-id="3" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN3.png" group-title="Sports",DAZN 3
+http://172.18.144.1:34400/stream/6bd72456ebdab7ef85b0ceacc4e0ce28
+#EXTINF:0 channelID="x-ID.3" tvg-chno="4" tvg-name="DAZN 4" tvg-id="4" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN4.png" group-title="Sports",DAZN 4
+http://172.18.144.1:34400/stream/f80f8307ed3f7bd98d12d55400f73ed6
+#EXTINF:0 channelID="x-ID.4" tvg-chno="5" tvg-name="DAZN F1" tvg-id="5" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="Sports",DAZN F1
+http://172.18.144.1:34400/stream/8ff4602b1cec40b8cca2aec439dd2eff
+#EXTINF:0 channelID="x-ID.5" tvg-chno="6" tvg-name="DAZN F1 Multicamara" tvg-id="6" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="Sports",DAZN F1 Multicamara
+http://172.18.144.1:34400/stream/6c65f437c340f641ea11230d06f3c139
+#EXTINF:0 channelID="x-ID.6" tvg-chno="7" tvg-name="DAZN LaLiga" tvg-id="7" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png" group-title="Sports",DAZN LaLiga
+http://172.18.144.1:34400/stream/05caa8e4cb14804fc8c06a9da42d9463
+#EXTINF:0 channelID="x-ID.7" tvg-chno="8" tvg-name="DAZN LaLiga (2)" tvg-id="8" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png" group-title="Sports",DAZN LaLiga (2)
+http://172.18.144.1:34400/stream/eb760cf265fd947ad7a62aa631aa9667
+#EXTINF:0 channelID="x-ID.8" tvg-chno="9" tvg-name="DAZN LaLiga 2" tvg-id="9" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNL2.png" group-title="Sports",DAZN LaLiga 2
+http://172.18.144.1:34400/stream/c3bb6890f98a8eec32097d8e832ae7fa
+#EXTINF:0 channelID="x-ID.9" tvg-chno="10" tvg-name="DAZN LaLiga 3" tvg-id="10" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNL3.png" group-title="Sports",DAZN LaLiga 3
+http://172.18.144.1:34400/stream/034e19f79204f01d825a41a9376d15b0
+#EXTINF:0 channelID="x-ID.10" tvg-chno="11" tvg-name="Dazn Liga F" tvg-id="11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DAZN_LaLiga_2023_Logo.svg/512px-DAZN_LaLiga_2023_Logo.svg.png" group-title="Sports",Dazn Liga F
+http://172.18.144.1:34400/stream/5fcb5a7b74d66d3324a57982cb37eb1b
+#EXTINF:0 channelID="x-ID.11" tvg-chno="12" tvg-name="La Liga BAR" tvg-id="12" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/f9y6oe1692444384.png" group-title="Sports",La Liga BAR
+http://172.18.144.1:34400/stream/fea17606de8eff1931555e2638598e3e
+#EXTINF:0 channelID="x-ID.12" tvg-chno="13" tvg-name="La Liga Hypermotion" tvg-id="13" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/LaLiga_TV_Hypermotion_2023_Logo.svg/1200px-LaLiga_TV_Hypermotion_2023_Logo.svg.png" group-title="Sports",La Liga Hypermotion
+http://172.18.144.1:34400/stream/2b6d9f444de64eebb7a71a60515c8be9
+#EXTINF:0 channelID="x-ID.13" tvg-chno="14" tvg-name="La Liga Hypermotion 2" tvg-id="14" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/ficha_m/MLIGS2.png" group-title="Sports",La Liga Hypermotion 2
+http://172.18.144.1:34400/stream/459a012aa0c3a1655e18da2e25d0ad04
+#EXTINF:0 channelID="x-ID.14" tvg-chno="15" tvg-name="Movistar Deportes" tvg-id="15" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CPDEP.png" group-title="Sports",Movistar Deportes
+http://172.18.144.1:34400/stream/8340af220b1f06fa4ed7351c0725228a
+#EXTINF:0 channelID="x-ID.15" tvg-chno="16" tvg-name="Movistar Deportes 2" tvg-id="16" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/ARTHUR.png" group-title="Sports",Movistar Deportes 2
+http://172.18.144.1:34400/stream/2010242d9533ed6f6904a389cde38488
+#EXTINF:0 channelID="x-ID.16" tvg-chno="17" tvg-name="Movistar Deportes 3" tvg-id="17" tvg-logo="https://cdn.discordapp.com/attachments/1160031158269124682/1221560635905544212/logo_deportes-3-movistar-plus.png?ex=661305ff&is=660090ff&hm=02ca8dd134dacc9578dd458ae5a2635c612e7f6039965d9b4ecdbf8e6d90c3f5&" group-title="Sports",Movistar Deportes 3
+http://172.18.144.1:34400/stream/87da77fcfa483b8afd52de894800e815
+#EXTINF:0 channelID="x-ID.17" tvg-chno="18" tvg-name="Movistar La Liga" tvg-id="18" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar La Liga
+http://172.18.144.1:34400/stream/2c7f87fee463ba48024a879ea740796a
+#EXTINF:0 channelID="x-ID.18" tvg-chno="19" tvg-name="Movistar la Liga 3" tvg-id="19" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar la Liga 3
+http://172.18.144.1:34400/stream/b1220a1e2004086653873216fce50c23
+#EXTINF:0 channelID="x-ID.19" tvg-chno="20" tvg-name="Movistar La Liga 4" tvg-id="20" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar La Liga 4
+http://172.18.144.1:34400/stream/a91d7acbd1cf52edd4b7339568b93646
+#EXTINF:0 channelID="x-ID.20" tvg-chno="21" tvg-name="Movistar La Liga 5" tvg-id="21" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar La Liga 5
+http://172.18.144.1:34400/stream/8c41a3c52bb0c84b08a16a39f522c441
+#EXTINF:0 channelID="x-ID.21" tvg-chno="22" tvg-name="Movistar La Liga 6" tvg-id="22" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar La Liga 6
+http://172.18.144.1:34400/stream/7062fec635fbec4d5b46beb9a7d27f58
+#EXTINF:0 channelID="x-ID.22" tvg-chno="23" tvg-name="Movistar Liga De Campeones" tvg-id="23" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar Liga De Campeones
+http://172.18.144.1:34400/stream/6f447f2a184b83fcb5fc96f3933b8fcc
+#EXTINF:0 channelID="x-ID.23" tvg-chno="24" tvg-name="Movistar Liga De Campeones" tvg-id="24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar Liga De Campeones
+http://172.18.144.1:34400/stream/6f447f2a184b83fcb5fc96f3933b8fcc
+#EXTINF:0 channelID="x-ID.24" tvg-chno="25" tvg-name="Movistar Liga De Campeones 2" tvg-id="25" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar Liga De Campeones 2
+http://172.18.144.1:34400/stream/365d9f84eff6772c69c298fb36f5daaf
+#EXTINF:0 channelID="x-ID.25" tvg-chno="26" tvg-name="Movistar Liga De Campeones 3" tvg-id="26" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar Liga De Campeones 3
+http://172.18.144.1:34400/stream/614e55e2860904ba25756c1c47bbe2ef
+#EXTINF:0 channelID="x-ID.26" tvg-chno="27" tvg-name="Movistar Liga De Campeones 4" tvg-id="27" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar Liga De Campeones 4
+http://172.18.144.1:34400/stream/0ee9dc22260a4a248eb56f1efdb3d877
+#EXTINF:0 channelID="x-ID.27" tvg-chno="28" tvg-name="Movistar Plus" tvg-id="28" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MPLUS.png" group-title="Sports",Movistar Plus
+http://172.18.144.1:34400/stream/44a1205ee414381244c0a37476a0e110
+#EXTINF:0 channelID="x-ID.28" tvg-chno="29" tvg-name="Movistar Vamos" tvg-id="29" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Vamos_por_Movistar_Plus%2B_2023_Logo.svg/250px-Vamos_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar Vamos
+http://172.18.144.1:34400/stream/a0e56ee8b2236942bca4577ef28c73ae
+#EXTINF:0 channelID="x-ID.29" tvg-chno="30" tvg-name="Movistar La Liga 2" tvg-id="30" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg/1200px-LaLigaTV_por_Movistar_Plus%2B_2023_Logo.svg.png" group-title="Sports",Movistar La Liga 2
+http://172.18.144.1:34400/stream/9a19d43766ad63634bf9ed1f7510b46c
